@@ -177,7 +177,7 @@ class EditableTextBlock extends StatelessWidget {
 
     if (attrs[Attribute.list.key] == Attribute.checked) {
       return CheckboxPoint(
-        size: 14,
+        size: 16,
         value: true,
         enabled: !readOnly,
         onChanged: (checked) => onCheckboxTap(line.documentOffset, checked),
@@ -187,7 +187,7 @@ class EditableTextBlock extends StatelessWidget {
 
     if (attrs[Attribute.list.key] == Attribute.unchecked) {
       return CheckboxPoint(
-        size: 14,
+        size: 16,
         value: false,
         enabled: !readOnly,
         onChanged: (checked) => onCheckboxTap(line.documentOffset, checked),

@@ -50,9 +50,7 @@ class _CheckboxPointState extends State<CheckboxPoint> {
         child: Material(
           color: fillColor,
           shape: RoundedRectangleBorder(
-            side: BorderSide(
-              color: borderColor,
-            ),
+            side: BorderSide(color: borderColor, width: 2.0),
             borderRadius: BorderRadius.circular(2),
           ),
           child: InkWell(
